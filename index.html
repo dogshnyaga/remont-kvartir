@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РемКвартира</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header with Burger Menu -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">РемКвартира</a>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Услуги</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Портфолио</a></li>
+                        <li class="nav-item"><a href="#reviews" class="nav-link">Отзывы</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Профессиональный ремонт квартир под ключ</h1>
+                <p class="hero-text">Качественно. Быстро. Гарантия 5 лет.</p>
+                <button class="btn hero-btn">Бесплатная консультация</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О нашей компании</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Компания "РемКвартира" уже более 10 лет выполняет качественный ремонт квартир в Москве и области.
+                        Мы объединяем профессионалов своего дела, которые превратят вашу квартиру в уютное и современное
+                        жилье.</p>
+                    <br>
+                    <p>Наш подход - это индивидуальное решение для каждого клиента, использование качественных
+                        материалов и строгое соблюдение сроков.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/image/car.png" alt="Наша команда">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Accordion -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">Косметический ремонт</div>
+                    <div class="accordion-content">
+                        <p>Идеальное решение для обновления квартиры без изменения планировки. Включает покраску стен и
+                            потолков, замену напольных покрытий, обновление сантехники и электрики.</p>
+                        <ul>
+                            <li>Срок выполнения: от 14 дней</li>
+                            <li>Стоимость: от 3 500 руб/м²</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">Капитальный ремонт</div>
+                    <div class="accordion-content">
+                        <p>Полное обновление квартиры с заменой всех инженерных систем, выравниванием стен и потолков,
+                            заменой напольных покрытий и полной отделкой.</p>
+                        <ul>
+                            <li>Срок выполнения: от 30 дней</li>
+                            <li>Стоимость: от 6 000 руб/м²</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">Дизайнерский ремонт</div>
+                    <div class="accordion-content">
+                        <p>Эксклюзивный ремонт по индивидуальному дизайн-проекту с использованием премиальных материалов
+                            и нестандартных решений.</p>
+                        <ul>
+                            <li>Срок выполнения: от 45 дней</li>
+                            <li>Стоимость: от 10 000 руб/м²</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">Ремонт отдельных помещений</div>
+                    <div class="accordion-content">
+                        <p>Ремонт кухни, ванной комнаты, гостиной или других отдельных помещений в квартире.</p>
+                        <ul>
+                            <li>Срок выполнения: от 7 дней</li>
+                            <li>Стоимость: индивидуальный расчет</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Slider -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Наши работы</h2>
+            <div class="portfolio-slider">
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="slider-item">
+                            <div class="cover">
+                                <img src="assets/image/rabota1.jpeg" alt="Ремонт квартиры на Тверской">
+                            </div>
+                            <div class="slider-caption">3-комн. квартира на Баумана, 120 м²</div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="cover">
+
+                                <img src="assets/image/rabota2.jpeg" alt="Ремонт кухни-гостиной">
+                            </div>
+                            <div class="slider-caption">Кухня-гостиная в ЖК "Салават Купере", 45 м²</div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="cover">
+
+                                <img src="assets/image/rabota3.webp" alt="Ванная комната премиум класса">
+                            </div>
+                            <div class="slider-caption">Ванная комната премиум класса, 12 м²</div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="cover">
+
+                                <img src="assets/image/rabota4.jpeg" alt="Ремонт квартиры в скандинавском стиле">
+                            </div>
+                            <div class="slider-caption">2-комн. квартира в скандинавском стиле, 65 м²</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev">←</button>
+                    <button class="slider-next">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section with Tabs -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших клиентов</h2>
+            <div class="reviews-tabs">
+                <div class="tabs-header">
+                    <div class="tab-header active" data-tab="tab-1">Иван П.</div>
+                    <div class="tab-header" data-tab="tab-2">Булат Я.</div>
+                    <div class="tab-header" data-tab="tab-3">Ремаз М.</div>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-content active" id="tab-1">
+                        <div class="review-text">
+                            <p>"Заказывали капитальный ремонт двухкомнатной квартиры. Работали оперативно, качественно,
+                                все сроки соблюдены. Особенно порадовало, что не было никаких скрытых платежей -
+                                итоговая сумма точно соответствовала смете. Рекомендую!"</p>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="tab-content" id="tab-2">
+                        <div class="review-text">
+                            <p>"Делали дизайнерский ремонт кухни и гостиной. Результат превзошел все ожидания! Дизайнер
+                                предложил несколько вариантов, мы остановились на самом нестандартном и не пожалели.
+                                Рабочие - настоящие профессионалы, все сделали аккуратно и чисто."</p>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="tab-content" id="tab-3">
+                        <div class="review-text">
+                            <p>"Ремонтировали квартиру после покупки в новостройке. Все коммуникации сделали с нуля,
+                                стены идеально ровные, сантехника установлена без единой течи. Прошло уже 2 года -
+                                никаких нареканий. Спасибо за качественную работу!"</p>
+                        </div>
+                        <div class="review-rating">★★★★☆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Оставьте заявку</h2>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Опишите ваши пожелания"></textarea>
+                </div>
+                <button type="submit" class="btn form-btn">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="author">
+                <h3>Ярмухамедов Амир 327</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/main.js"></script>
+</body>
+
+</html>
